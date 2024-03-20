@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mein Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Mein Portfolio</h1>
+  <p>Hier finden Sie eine Auswahl meiner Arbeiten.</p>
+
+  <section id="about">
+    <h2>Über mich</h2>
+    <p>
+      Mein Name ist Faruk und ich mache eine Umschulung zum Fachinformatiker.
+    </p>
+
+    <img src="C:\Users\OkcuFaruk\OneDrive - LG-Academy\Dokumente\CV\Alte_CV_Unterlagen" alt="Mei Foto" />
+
+    <table>
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td>Vorname</td>
+                <td>Nachname</td>
+                <td>Geburtsdatum</td>
+                <td>Anschrift</td>
+            </tr>
+        </thead>
+      <tr>
+        <td>o</td>
+        <td>Faruk</td>
+        <td>Okcu</td>
+        <td>19.05.1980</td>
+        <td>Okcu</td>
+      </tr>
+    </table>
+    <table>
+        <tr>
+            <tr>1</tr>
+            <tr>2</tr>
+            <tr>3</tr>
+        </tr>
+    </table>
+
+    <p>
+      Ich bin leidenschaftlich daran, mich weiterzuentwickel und ich arbeite ständig daran, meine Fähigkeiten zu verbessern.
+    </p>
