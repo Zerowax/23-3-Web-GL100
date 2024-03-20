@@ -1,0 +1,32 @@
+/* CSS-Selektoren  */
+/*
+    Element-Selektorn => body, msim, p, img, h2. h2....
+    Class-selektor 0> .card, .header, ...
+    Id-Selktor => csrd1, #card1, #theme-togglr, #sub,it-btn
+    Atribute-Selrktor => todo
+*/
+body {
+    background-color: #747070;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-style: italic;
+}
+
+main  {
+    margin: 20px;
+}
+
+li.fette-liste {
+    font-weight: 900;
+}
+
+li.custum-li { 
+    margin: 15px;
+}
+
+h1#main-titele {
+    font-size: 2em;
+    text-shadow: 5px 5px 5px #fefefe;
+    font-style: normal;
+}
