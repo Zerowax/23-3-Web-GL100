@@ -6,17 +6,24 @@
     Atribute-Selrktor => todo
 */
 body {
-    background-color: #747070;
+    background-color: #6d6d6d;
+    color: white;
+    margin: 0;
+    padding: 0;
+    /* 1rem 0> default-browser-fontsize */
+    font-size: 1.5rem;
 }
 
 h1,h2,h3,h4,h5,h6 {
     font-style: italic;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
 }
 
 main  {
     margin: 20px;
 }
-
+/*
 li.fette-liste {
     font-weight: 900;
 }
@@ -24,9 +31,12 @@ li.fette-liste {
 li.custum-li { 
     margin: 15px;
 }
-
+*/
 h1#main-titele {
     font-size: 2em;
-    text-shadow: 5px 5px 5px #fefefe;
+    text-shadow: 5px 5px 5px #000;
     font-style: normal;
+}
+p{
+    margin: 5px;
 }
