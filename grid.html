@@ -3,26 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flexbox</title>
+    <title>Grid-Layout</title>
     <style>
       body {
         background-color: #6c6c6c;
       }
-      .flex-container {
-        margin: 40px;
-        display:flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 2rem;
-
+      .grid-container {
       }
       .card {
         width: 300px;
         color: #fefefe;
         background-color: rgb(96, 89, 106);
         border-radius: 30px;
-        box-shadow: 5px 5px 5px; rgb(56, 52, 61)
+        box-shadow: 5px 5px 5px rgb(56, 52, 61);
       }
       .card > img {
         width: 100%;
@@ -38,16 +31,16 @@
       .card-text > h3 {
         font-size: 1.3em;
         font-weight: 400;
-        font-family: impact, Arial, sans-serif;
+        font-family: Impact, Arial, sans-serif;
         text-shadow: 1px 1px 2px black;
       }
       .card-text > p.price {
         font-size: 1.6em;
         font-weight: 600;
-        font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+        font-family: "Segoe UI", Verdana, sans-serif;
         margin: 10px 0;
-        color: rgb(15, 237, 237);
-        text-shadow: 1px 1px 2px rgb(15, 237, 237);
+        color: rgb(5, 224, 224);
+        text-shadow: 1px 1px 2px rgb(119, 215, 215);
       }
       .card-text > :last-child {
         text-align: center;
@@ -56,42 +49,60 @@
     </style>
   </head>
   <body>
-    <div class="flex-container">
+    <div class="grid-container">
       <div class="card">
-        <img src="https://picsum.photos/200/200" alt="" />
+        <img
+          src="https://picsum.photos/seed/snickers/400/400"
+          alt="Card1 Image"
+        />
         <div class="card-text">
           <h3>HEADPHONE</h3>
           <p class="price">29,99</p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
         </div>
       </div>
       <div class="card">
-        <img src="https://picsum.photos/200/200" alt="" />
+        <img
+          src="https://picsum.photos/seed/snickers/400/400"
+          alt="Card1 Image"
+        />
         <div class="card-text">
           <h3>HEADPHONE</h3>
           <p class="price">29,99</p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
         </div>
-      </div><div class="card">
-        <img src="https://picsum.photos/200/200" alt="" />
+      </div>
+      <div class="card">
+        <img
+          src="https://picsum.photos/seed/snickers/400/400"
+          alt="Card1 Image"
+        />
         <div class="card-text">
           <h3>HEADPHONE</h3>
           <p class="price">29,99</p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
         </div>
-      </div><div class="card">
-        <img src="https://picsum.photos/200/200" alt="" />
+      </div>
+      <div class="card">
+        <img
+          src="https://picsum.photos/seed/snickers/400/400"
+          alt="Card1 Image"
+        />
         <div class="card-text">
           <h3>HEADPHONE</h3>
           <p class="price">29,99</p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
         </div>
-      </div><div class="card">
-        <img src="https://picsum.photos/200/200" alt="" />
+      </div>
+      <div class="card">
+        <img
+          src="https://picsum.photos/seed/snickers/400/400"
+          alt="Card1 Image"
+        />
         <div class="card-text">
           <h3>HEADPHONE</h3>
           <p class="price">29,99</p>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing</p>
         </div>
       </div>
     </div>
