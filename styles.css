@@ -1,16 +1,17 @@
-/* CSS-Selektoren  */
-/*
-    Element-Selektorn => body, msim, p, img, h2. h2....
-    Class-selektor 0> .card, .header, ...
-    Id-Selktor => csrd1, #card1, #theme-togglr, #sub,it-btn
-    Atribute-Selrktor => todo
+/* CSS-Selektoren */
+/* 
+    Element-Selektoren => body, main, p, img, h1, h2,...
+    Class-Selektor => .card, .header, .buxtehude
+    Id-Selektor => #card1, #theme-toggle, #submit-btn
+    Attribute-Selektor => todo
 */
 body {
+    background-color: #8c8c8c;
     background-color: #6d6d6d;
     color: white;
     margin: 0;
     padding: 0;
-    /* 1rem 0> default-browser-fontsize */
+    /* 1rem => 1x default-browser-fontsize => 16px */
     font-size: 1.5rem;
 }
 
@@ -20,23 +21,31 @@ h1,h2,h3,h4,h5,h6 {
     text-decoration-thickness: 2px;
 }
 
-main  {
+main {
     margin: 20px;
 }
+
 /*
 li.fette-liste {
     font-weight: 900;
 }
-
-li.custum-li { 
+li.custom-list-item {
     margin: 15px;
 }
+
 */
-h1#main-titele {
+h1#main-title {
+    /* 1em => 1x font-size direkten parents => 
+        16px (browserdefault) x 1.5 rem (body) x 2em ==> 48px
+    */
     font-size: 2em;
-    text-shadow: 5px 5px 5px #000;
+    text-shadow: 5px 5px 5px #fefefe;
+    text-shadow: 2px 2px 2px black;
     font-style: normal;
 }
-p{
+
+p {
+    /* Feste Breite von ca. 20 Zeichen für p-Tags
+    width: 20ch; */
     margin: 5px;
 }
