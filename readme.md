@@ -1,12 +1,15 @@
-# Webenteicklungs-Grundlagen
+# Webentwicklungs-Grundlagen
 
-Diese Reposisitory ist eine Sammlung an Lernmaterialien für den Einstieg in die Webentwicklung.
+Dieses Repository ist eine Sammlung an Lernmaterialien für den Einstieg in die Webentwicklung.
 
-## Getting Startted
+## Getting Started
 
 ```shell
-git clone <Ploatzhalter>
+git clone <Platzhalter>
 cd <Platzhalter>
 code .
 ```
 
+## HTTP und Webstandards
+
+![](HTTPundWebstandards-HTTP.svg)
